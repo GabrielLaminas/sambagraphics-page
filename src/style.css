@@ -1,5 +1,5 @@
-@import './css/reset.css';
-@import './css/root.css';
+@import './css/base/reset.css';
+@import './css/abstract/root.css';
 
 @import './css/layout/header.css';
 @import './css/layout/gridItems.css';
