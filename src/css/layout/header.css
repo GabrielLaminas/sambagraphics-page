@@ -68,7 +68,6 @@ header{
   align-items: center;
   background-color: #292A2C;
   border-radius: 6px;
-  overflow: hidden;
 }
 
 .header__search input{
