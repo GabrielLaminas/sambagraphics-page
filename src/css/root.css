@@ -10,5 +10,7 @@
   --fontFamily-Roboto: 'Roboto', sans-serif;
   --fontFamily-FiraSans: 'Fira Sans', sans-serif;
 
+  --fontSize-16: 1rem;
   --fontSize-18: 1.125rem;
+  --fontSize-30: 1.875rem;
 }
