@@ -29,7 +29,8 @@ img{
 }
 
 .container__header, 
-.container__section{
+.container__section,
+.container__footer{
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 24px;
@@ -39,6 +40,13 @@ img{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.container__footer{
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1920px) {

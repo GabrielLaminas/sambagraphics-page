@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css">
-  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <title>Samba Graphics</title>
 </head>
 <body>
@@ -449,13 +448,16 @@
   </section>
 
   <footer>
-    <div>
+    <div class="container__footer">
       <div>
-        <img src="assets/images/logo.svg" alt="Logo Samba Graphics">
+        <img 
+          style="width: 150px; height: 150px"
+          src="assets/images/logo.svg" 
+          alt="Logo Samba Graphics">
       </div>
   
       <nav aria-label="secondary">
-        <ul>
+        <ul class="footer__list">
           <li><a href="#">Home</a></li>
           <li><a href="#">Gêneros</a></li>
           <li><a href="#">Favoritos</a></li>
@@ -467,30 +469,52 @@
         </ul>
       </nav>
   
-      <div>
+      <div class="footer__socialMidia">
         <div>
           <p>Siga-nos nas redes sociais</p>
+
+          <div class="footer__socialMidia__icons">
+            <img src="assets/images/Icon awesome-twitter.svg" alt="twitter social midia">
+
+            <img src="assets/images/Icon awesome-instagram.svg" alt="instagram social midia">
+
+            <img src="assets/images/Icon awesome-facebook-square.svg" alt="instagram social midia">
+          </div>
         </div>
   
         <div>
-          <input type="text">
-  
+          <p>Assine a nossa Newsletter</p>
+          
+          <div class="footer__newsletter">
+            <input type="text">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(250, 181, 43, 1);">
+              <path d="m21.426 11.095-17-8A1 1 0 0 0 3.03 4.242l1.212 4.849L12 12l-7.758 2.909-1.212 4.849a.998.998 0 0 0 1.396 1.147l17-8a1 1 0 0 0 0-1.81z">
+              </path>
+            </svg>
+          </div>
         </div>
       </div>
   
-      <div>
+      <div class="footer__downloadApp">
         <p>Baixe o App</p>
   
         <div>
-          <img src="assets/images/APP STORE.svg" alt="app store link">
+          <a href="#">
+            <img src="assets/images/APP STORE.svg" alt="app store link">
+          </a>
   
-          <img src="assets/images/PLAY STORE.svg" alt="google play link">
+          <a href="#">
+            <img src="assets/images/PLAY STORE.svg" alt="google play link">
+          </a>
         </div>
       </div>
     </div>
 
-    <div>
-      <p>Termos e aviso de privacidade. Envie-nos seu feedback. Ajuda. © 2022, Samba Graphics</p>
+    <div class="footer__copyright">
+      <p>
+        Termos e aviso de privacidade. Envie-nos seu feedback. Ajuda. © 2022, Samba Graphics
+      </p>
     </div>
   </footer>
 </body>
