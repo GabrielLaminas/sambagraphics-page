@@ -14,6 +14,10 @@ footer{
   color: var(--color-white);
 }
 
+.footer__list a:hover{
+  color: var(--colorlink-gray);
+}
+
 .footer__socialMidia{
   width: 250px;
   display: flex;

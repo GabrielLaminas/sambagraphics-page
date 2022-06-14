@@ -59,6 +59,13 @@ header{
   );
 }
 
+.header__listBtns .btn--create:hover{
+  background: linear-gradient(
+    var(--detail-yellow ) 60%,
+    var(--detail-orange)
+  );
+}
+
 .header__listBtns .btn--login{
   background-color: var(--color-white);
 }

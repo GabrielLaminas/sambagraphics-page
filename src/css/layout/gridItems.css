@@ -152,6 +152,13 @@
   );
 }
 
+.item__section__forth a:hover{
+  background: linear-gradient(
+    var(--detail-yellow ) 60%,
+    var(--detail-orange)
+  );
+}
+
 .item__section__forth span{
   color: var(--detail-yellow);
   font-size: var(--fontSize-18);
