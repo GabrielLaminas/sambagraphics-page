@@ -22,6 +22,19 @@ body{
   background-size: 100% 100%;
 }
 
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: #1B1A1F;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(
+    var(--detail-orange),
+    var(--detail-yellow)
+  );
+  border-radius: 10px;
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -49,15 +62,10 @@ img{
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1920px) {
-  .container  {
-    background-color: blue;
-  }
-}
-
-
-@media screen and (max-width: 480px) {
-  .container{
+@media screen and (max-width: 768px) {
+  .container__header, 
+  .container__section,
+  .container__footer{
     padding: 0 16px;
   }
 }
