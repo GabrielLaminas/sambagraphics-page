@@ -49,6 +49,7 @@ header{
 
 .header__listBtns{
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 
@@ -100,6 +101,7 @@ header{
 }
 
 .header__search svg{
+  margin: 0 auto;
   padding: 5px 0;
 }
 
@@ -116,6 +118,10 @@ header{
 
 /*Large Desktop*/
 @media screen and (max-width: 1280px) {
+  .container__flex{
+    gap: 24px;
+  }
+
   .show--button{
     width: 40px;
     height: 40px;
@@ -123,12 +129,7 @@ header{
     border: 1px solid var(--detail-orange);
     border-radius: 4px;
     cursor: pointer;
-    background: url('../../../assets/images/menu.png') no-repeat fixed center;
-  }
-
-  .container__flex{
-    display: flex;
-    gap: 24px;
+    background: url('../../../assets/images/menu.png');
   }
 
   .header__nav{
@@ -148,6 +149,7 @@ header{
     border: 1px solid var(--detail-orange);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    animation: show-top 1s forwards;
   }
 
   .header__listBtns .btn--create{
@@ -166,7 +168,22 @@ header{
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
+  .header__listBtns{
+    width: 100%;
+  }
+
   .header__search input{
     width: 200px;
+  }
+}
+
+@keyframes show-top {
+  from{
+    right: 100px;
+    opacity: 0;
+  }
+  to{
+    right: 0;
+    opacity: 1;
   }
 }

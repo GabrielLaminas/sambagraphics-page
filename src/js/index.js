@@ -10,7 +10,6 @@ const search
 const flexContainer 
   = document.querySelector('.container__flex');
 
-
 buttonMenu.addEventListener('click', function({target}){
   target.classList.toggle('active');
   listShow.classList.toggle('active');
@@ -26,7 +25,7 @@ buttonMenu.addEventListener('click', function({target}){
   }
 })
 
-window.addEventListener('resize', () => {
+function resetItems(){
   if(this.innerWidth <= 500){
     listShow.append(search);
   }
@@ -39,4 +38,7 @@ window.addEventListener('resize', () => {
   else{
     flexContainer.append(search);
   }
-});
+}
+resetItems();
+
+window.addEventListener('resize', resetItems);
