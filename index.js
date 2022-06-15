@@ -12,7 +12,7 @@ function resetItems(){
     buttonMenu.style.background = 'url("assets/images/menu.png")';
     listShow.classList.remove('active');
   } 
-  else{
+  else{ 
     flexContainer.append(search);
   }
 }
