@@ -183,7 +183,7 @@
   .grid__section{
     grid-template-columns: repeat(
       auto-fit,
-      minmax(300px, 480px)
+      minmax(320px, 1fr)
     );
   }
 }
@@ -196,6 +196,10 @@
   
   .grid__section{
     gap: 60px 12px;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 480px)
+    );
   }
 
   .item__section .item__section__first{
