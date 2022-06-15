@@ -9,7 +9,7 @@ function resetItems(){
   }
   else if(this.innerWidth >= 1280){
     buttonMenu.classList.remove('active');
-    buttonMenu.style.background = 'url("../assets/images/menu.png")';
+    buttonMenu.style.background = 'url("assets/images/menu.png")';
     listShow.classList.remove('active');
   } 
   else{
@@ -24,10 +24,10 @@ buttonMenu.addEventListener('click', function({target}){
   listShow.classList.toggle('active');
 
   if(target.getAttribute('class') === 'show--button active'){
-    target.style.background = 'url("../assets/images/iconx.png")';
+    target.style.background = 'url("assets/images/iconx.png")';
   }
 
   if(target.getAttribute('class') === 'show--button'){
-    target.style.background = 'url("../assets/images/menu.png")';
+    target.style.background = 'url("assets/images/menu.png")';
   }
 })
