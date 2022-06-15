@@ -149,7 +149,7 @@ header{
     border: 1px solid var(--detail-orange);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    animation: show-top 1s forwards;
+    animation: show-menu 1s forwards;
   }
 
   .header__listBtns .btn--create{
@@ -177,7 +177,7 @@ header{
   }
 }
 
-@keyframes show-top {
+@keyframes show-menu {
   from{
     right: 100px;
     opacity: 0;
