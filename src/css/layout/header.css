@@ -12,14 +12,14 @@ header{
   );
 }
 
-.show--button{
-  display: none;
-}
-
 .container__flex{
   display: flex;
   align-items: center;
   gap: 100px;
+}
+
+.show--button{
+  display: none;
 }
 
 .header__nav{
@@ -121,8 +121,9 @@ header{
     height: 40px;
     display: flex;
     border: 1px solid var(--detail-orange);
+    border-radius: 4px;
     cursor: pointer;
-    background: url('../../../assets/images/menu.png');
+    background: url('../../../assets/images/menu.png') no-repeat fixed center;
   }
 
   .container__flex{
