@@ -197,4 +197,21 @@
   .grid__section{
     gap: 60px 12px;
   }
+
+  .item__section .item__section__first{
+    margin: 24px 0;
+  }
+
+  .item__section .item__section__second{
+    margin-bottom: 24px;
+  }
+
+  .item__section .item__section__body{
+    margin-bottom: 24px;
+    font-size: var(--fontSize-16);
+  }
+  
+  .item__section .item__section__third{
+    margin-bottom: 24px;
+  }
 }
