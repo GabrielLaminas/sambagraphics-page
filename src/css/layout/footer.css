@@ -19,7 +19,7 @@ footer{
 }
 
 .footer__socialMidia{
-  width: 250px;
+  width: 230px;
   display: flex;
   gap: 60px;
   flex-direction: column;
@@ -34,10 +34,10 @@ footer{
 
 .footer__socialMidia .footer__newsletter{
   margin-top: 16px;
-  border: 1px solid var(--detail-orange);
   display: flex;
   align-items: center;
   background-color: #17161b;
+  border: 1px solid var(--detail-orange);
   border-radius: 6px;
 }
 
@@ -68,9 +68,25 @@ footer{
 }
 
 .footer__copyright{
-  padding: 30px 0;
+  padding: 30px 16px;
   background-color: var(--detail-yellow);
   text-align: center;
   color: #17161B;
   font-weight: 500;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  .footer__socialMidia{
+    gap: 40px;
+  }
+
+  .footer__socialMidia .footer__socialMidia__icons{
+    margin-top: 24px;
+    justify-content: center;
+  }
+
+  .footer__downloadApp{
+    gap: 26px;
+  }
 }
