@@ -6,6 +6,7 @@
   color: var(--detail-yellow);
   font-family: var(--fontFamily-Roboto);
   font-size: var(--fontSize-30);
+  text-transform: uppercase;
 }
 
 .title__section::after{
