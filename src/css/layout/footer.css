@@ -12,6 +12,7 @@ footer{
 
 .footer__list a{
   color: var(--color-white);
+  transition: color .2s ease-in-out;
 }
 
 .footer__list a:hover{
