@@ -165,7 +165,7 @@
   font-weight: 700;
 }
 
-/*Extra Large Desktop */
+/*Extra Large Desktop*/
 @media screen and (max-width: 1440px) {
   .grid__section{
     gap: 80px 24px;
@@ -178,7 +178,7 @@
   }
 }
 
-/*Large Deskto*/
+/*Large Desktop*/
 @media screen and (max-width: 1280px) {
   .grid__section{
     grid-template-columns: repeat(
@@ -190,6 +190,10 @@
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
+  .container__section{
+    margin: 60px auto;
+  }
+  
   .grid__section{
     gap: 60px 12px;
   }
