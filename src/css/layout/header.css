@@ -126,7 +126,7 @@ header{
     width: 40px;
     height: 40px;
     display: flex;
-    border: 1px solid var(--detail-orange);
+    border: 1px solid var(--detail-yellow);
     border-radius: 4px;
     cursor: pointer;
     background: url('../../../assets/images/menu.png');
